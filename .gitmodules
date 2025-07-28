@@ -1,3 +1,6 @@
 [submodule "external/FreeRTOS-Kernel"]
 	path = external/FreeRTOS-Kernel
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "external/ds18b20"]
+	path = external/ds18b20
+	url = https://github.com/libdriver/ds18b20.git
