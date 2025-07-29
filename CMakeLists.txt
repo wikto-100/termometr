@@ -50,8 +50,9 @@ include(external/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_
 # Add executable and its source files
 add_executable(termometr
     src/termometr.c
-    src/onewire.c
-    src/DS18B20.c
+    src/driver_ds18b20_interface.c
+    src/driver_ds18b20.c
+    src/driver_ds18b20_dual.c
 )
 
 # Include header directories
